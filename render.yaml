@@ -1,5 +1,5 @@
 buildCommand: |
   cd server
-  npm install --production
-startCommand: npm start
+
+startCommand: node index.js
 
