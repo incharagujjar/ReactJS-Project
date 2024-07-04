@@ -1,9 +1,5 @@
-# render.yaml
-
-# Specify the build commands
 buildCommand: |
   cd server
-  npm install --production  # Install dependencies
+  npm install --production
+startCommand: npm start
 
-# Specify the start command
-startCommand: npm start  # Adjust if your start command is different
